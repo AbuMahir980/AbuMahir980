@@ -2,7 +2,7 @@
 
 **Frontend Engineer — React, TypeScript & React Native · 📍 Lagos, Nigeria**
 
-I build React and TypeScript products that have to behave under real conditions: data-heavy operational dashboards, customer-facing web apps, enrolment and payment flows, and the shared frontend foundations that keep several products consistent. I'm the creator of [Peer AI](https://github.com/AbuMahir980/peer-ai), an open-source tool that holds AI coding assistants to an engineering process ([on npm](https://www.npmjs.com/package/peer-ai)), and I'm currently building a React Native and Expo app for a travel start-up.
+I build React and TypeScript products that have to behave under real conditions: data-heavy operational dashboards, customer-facing web apps, enrolment and payment flows, and the shared frontend foundations that keep several products consistent. I'm the creator of [Peer AI](https://github.com/AbuMahir980/peer-ai), an open-source tool that holds AI coding assistants to an engineering process ([on npm](https://www.npmjs.com/package/peer-ai)), and I'm currently using it to build a React Native and Expo app for a travel start-up.
 
 [![React](https://img.shields.io/badge/React_19-20232a?style=flat-square&logo=react&logoColor=61DAFB)](#)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](#)
@@ -25,7 +25,7 @@ I build React and TypeScript products that have to behave under real conditions:
 
 🧪 **Validation with real people.** I test products end to end through real user workflows, onboard and observe pilot users, and turn what they struggle with into reproducible defects and acceptance criteria before customers are admitted.
 
-📱 **A mobile app built to the pixel.** On a React Native/Expo travel app I built the design system (tokens from one design file, ~40 shared components with every state) and a Playwright screenshot diff against the Expo web build that fails any screen more than 0.05% off its design — plus an offline outbox that replays queued expenses in order, with idempotent requests so a retry never records twice.
+📱 **A mobile app built to the pixel, with AI agents under my direction.** On a React Native/Expo travel app I set the architecture and the rules, and AI coding agents working under Peer AI implement each piece against written acceptance criteria; I review every change before it merges. The design system — tokens from one design file, ~40 shared components with every state — and a Playwright screenshot diff against the Expo web build keep every screen within 0.05% of its design; an offline outbox replays queued expenses in order with idempotent requests, so a retry never records twice. The reviews have caught what tests passed: four money bugs and a rate-limit bypass, before launch.
 
 ---
 
@@ -39,13 +39,13 @@ AI coding tools write code fast and skip what makes software safe to ship. Peer 
 - 📚 **29 skills, 197 rules.** Step-by-step procedures for requirements, architecture, threat modelling, security, privacy, accessibility, performance, releases and more, with rules built on OWASP ASVS/MASVS and WCAG 2.2: 46 enforced by tools that fail the build, 148 by reviews that must cite evidence, 3 by a person.
 - ✅ **A CI gate that wants proof.** `peer-ai check` fails a pull request whose work isn't verified and reviewed against the commit about to merge. Works with parallel agents in separate git worktrees.
 - 📏 **Measured, not promised.** On the same model, a pre-launch release check found 12 of 12 planted problems with Peer AI against 8 without; every run and its cost is published in `evals/`.
-- 🧱 **Built in the open.** TypeScript, ~29,000 lines across five packages, 659 tests, CI on Linux, macOS and Windows; 18 RFCs; npm trusted publishing with signed provenance.
+- 🧱 **Built in the open.** AI coding agents implement each piece against written acceptance criteria; I set the architecture and the rules, and review every change before it merges. TypeScript, ~29,000 lines across five packages, 659 tests, CI on Linux, macOS and Windows; 18 RFCs; npm trusted publishing with signed provenance.
 
 Pre-release, in daily use on a client codebase. Started in June 2026 as a Markdown playbook, rewritten from September 2026 as the package.
 
 ### 💰 [Mizaniya](https://github.com/AbuMahir980/mizaniya) — budgeting by salary day, not calendar month
 
-A local-first budgeting PWA for people paid in salary cycles — debts in both directions, a rent sinking fund, no server, no accounts. React 19, TypeScript, Tailwind. The money logic lives in a framework-free core (integer kobo with a branded type, every figure a pure function of the transactions) behind a Repository over IndexedDB, so a React Native version can share it. Designed before it was built — a token-based design system and 67 artboards — with module boundaries enforced by lint and 288 tests. Built in the open with Peer AI; v1 in progress.
+A local-first budgeting PWA for people paid in salary cycles — debts in both directions, a rent sinking fund, no server, no accounts. React 19, TypeScript, Tailwind. The money logic lives in a framework-free core (integer kobo with a branded type, every figure a pure function of the transactions) behind a Repository over IndexedDB, so a React Native version can share it. Designed before it was built — a token-based design system and 67 artboards — with module boundaries enforced by lint and 288 tests. Built in the open with Peer AI — agents implement, I set the design system, the architecture rules and the acceptance criteria, and review every change. v1 in progress.
 
 ---
 
@@ -64,9 +64,9 @@ A local-first budgeting PWA for people paid in salary cycles — debts in both d
 
 | | |
 |---|---|
-| ⚛️ **Frontend** | React 19, TypeScript, JavaScript (ES6+), React Native / Expo, HTML5, CSS3, Tailwind CSS |
+| ⚛️ **Frontend** | React 19, TypeScript, JavaScript (ES6+), React Native / Expo, HTML5, CSS3, Tailwind CSS, Chakra UI, shadcn/ui |
 | 🏗️ **Architecture & state** | TanStack Query, Zustand, Context API, design systems and tokens, shared component libraries |
-| 🔗 **APIs & workflows** | REST, Axios, JWT/OTP authentication, role-based interfaces, forms and validation, Paystack |
+| 🔗 **APIs & workflows** | REST, Axios, JWT/OTP authentication, role-based interfaces, forms and validation, Paystack, Node.js/Express and FastAPI (working knowledge) |
 | 📈 **Data & interface quality** | Recharts, MapLibre GL, GeoJSON, loading/empty/error/retry states, accessibility, responsive QA |
 | 🚀 **Testing & delivery** | Vitest, Jest, React Testing Library, Playwright, Bruno, Git, GitHub Actions, Vite, ESLint |
 | 🤖 **AI-assisted development** | Peer AI (creator), Claude Code, parallel agents in git worktrees, review-gated delivery |
@@ -76,7 +76,7 @@ A local-first budgeting PWA for people paid in salary cycles — debts in both d
 
 ## 🌱 Currently
 
-Building a React Native/Expo travel app for a start-up, and shipping Peer AI 1.0 pre-releases from what that project teaches. Mizaniya is being built in the open with it.
+Building a React Native/Expo travel app for a start-up with AI agents under my direction, and shipping Peer AI 1.0 pre-releases from what that project teaches. Mizaniya is being built in the open the same way.
 
 ---
 
